@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&family=Roboto:wght@300&display=swap');
+:root {
+	--Piedra: 'Piedra', cursive;
+	--Roboto: 'Roboto', sans-serif;
+}
+
+.body {
+	overflow-x: hidden;
+}
+
+.logo {
+	background-color: white;
+	justify-content: center;
+}
+
+.logoBox {
+	display: flex;
+	flex-direction: column;
+	/* border: 1px solid #598bf0; */
+	padding: 10px;
+	width: 100px;
+	background-color: #1f1d1d;
+	/* border-radius: 85%; */
+}
+
+.logoBox .name {
+	font-size: 18px;
+	margin: 0 auto;
+	font-family: 'Piedra', cursive;
+	padding: 0;
+	color: whitesmoke;
+	align-self: center;
+	letter-spacing: 2.5px;
+}
+
+.stars {
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	margin: 0 auto;
+	color: white;
+}
+
+.fa-star {
+	color: white;
+	padding: 0;
+	align-self: center;
+}
+
+/* NavBar ======================================== */
+.logoImage {
+	height: 50px;
+}
+
+.nav-link {
+	color: #474646 !important;
+	font-family: var(--Roboto);
+	padding: 5px;
+	font-weight: bold;
+}
+
+.nav-link:hover {
+	color: #807d7d !important;
+	font-weight: bold;
+	border-bottom: 1px solid #474646;
+	/* transition: 0.5s ease-in; */
+}
+
+.fa-2x {
+	padding: 10px;
+}
+
+.fa-bars {
+	color: #1f1d1d;
+}
+
+.social-links .fa-2x {
+	color: #454545 !important;
+}
+
+.social-links .fa-github:hover {
+	color: #454545;
+}
+.social-links .fa-instagram:hover {
+	color: #ffb6c1 !important;
+}
+.social-links .fa-twitter:hover {
+	color: #598bf0 !important;
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+	.logoImage {
+		height: 40px;
+	}
+
+	.nav-item {
+		margin: 10px 0;
+		padding: 2px 10px;
+	}
+}
