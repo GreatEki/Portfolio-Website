@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&family=Open+Sans&family=Piedra&family=Roboto:wght@300&display=swap');
+
+:root {
+	--Piedra: 'Piedra', cursive;
+	--Roboto: 'Roboto', sans-serif;
+	--grey: #807d7d;
+	--black: #1f1d1d;
+	--Anton: 'Anton', sans-serif;
+	--Open-Sans: Open Sans, sans-serif;
+	--Lato: 'Lato, sans-serif';
+	--lightgrey: #bdb9b9;
+}
+
+.letterSpace-2 {
+	letter-spacing: 2px;
+}
+
+.lightgrey {
+	color: var(--lightgrey);
+}
+
+.black {
+	color: var(--black);
+}
+
+.Anton {
+	font-family: var(--Anton);
+}
+
+.About {
+	margin-top: 10rem;
+}
+
+.aboutFlex {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	justify-content: space-evenly;
+	/* background-color: yellow; */
+}
+
+.aboutImg {
+	width: 100%;
+	height: 300px;
+}
+
+.aboutText {
+	padding: 100px;
+	font-size: 24px;
+	padding: 15px;
+	line-height: 1.5em;
+	letter-spacing: 0.2rem;
+	font-family: var(--Roboto);
+}
+
+.flexRow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 2rem 0;
+}
+
+.flexRow > img {
+	width: 80px;
+}
+
+/* .card {
+	background-color: #fdfff5;
+} */
+/* 
+.techStack {
+	background-color: white;
+	/* margin: 2rem; *
+}
+
+.col-md-4 > p {
+	font-family: var(--Roboto);
+	letter-spacing: 2px;
+	/* line-height: 1rem; 
+	font-size: 16px;
+}
+
+.cardTitle {
+	font-family: var(--Anton);
+} */
+
+.flexRow button {
+	padding: 10px;
+	background-color: whitesmoke;
+	font-family: var(--Roboto);
+	font-weight: bold;
+	border-radius: 8%;
+}
+
+.quote {
+	font-size: 54px;
+	margin-top: 100px;
+	font-family: var(--Lato);
+	padding-bottom: 50px;
+}
+
+.quoteBlock {
+	/* background-color: var(--lightgrey); */
+	background: -webkit-linear-gradient(#e6e8eb, #d3ddeb);
+	background: -moz-linear-gradient(#e6e8eb, #d3ddeb);
+	background: linear-gradient(#e6e8eb, #d3ddeb);
+	padding: 25px;
+	margin: 5rem 0 0 0;
+}

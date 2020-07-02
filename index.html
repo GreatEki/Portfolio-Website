@@ -25,6 +25,8 @@
 		></script>
 
 		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/home.css" />
+		<link rel="stylesheet" href="/css/about.css" />
 
 		<link rel="apple-touch-icon" href="./eki-logo.PNG" />
 
@@ -32,57 +34,171 @@
 		<title>Ekene Idiagbor</title>
 	</head>
 	<body>
-		<header className>
-			<!-- NavBar Design -->
-			<nav class="navbar navbar-expand-lg container">
-				<a href="#" class="navbar-brand">
-					<img class="logoImage" src="/public/images/eki-logo.PNG" alt="logo" />
-				</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#webNavBar"
-					aria-controls="false"
-					aria-label="toggle-navigation"
-				>
-					<i class="fas fa-bars fa-1x"></i>
-				</button>
+		<header>
+			<section class="header">
+				<!-- NavBar Design ========================================== -->
+				<nav class="navbar navbar-expand-lg container">
+					<a href="#" class="navbar-brand">
+						<img
+							class="logoImage"
+							src="/public/images/eki-logo.PNG"
+							alt="logo"
+						/>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#webNavBar"
+						aria-controls="false"
+						aria-label="toggle-navigation"
+					>
+						<i class="fas fa-bars fa-1x"></i>
+					</button>
 
-				<div class="collapse navbar-collapse"></div>
-				<div class="collapse navbar-collapse" id="webNavBar">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a href="#" class="nav-link text-uppercase"> Home </a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link text-uppercase"> Portfolio </a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link text-uppercase"> About </a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link text-uppercase"> Contact </a>
-						</li>
-					</ul>
-
-					<div class="collapse navbar-collapse"></div>
-					<div class="collapse navbar-collapse">
-						<ul class="navbar-nav social-links">
+					<!-- <div class="collapse navbar-collapse"></div> -->
+					<div class="collapse navbar-collapse" id="webNavBar">
+						<ul class="navbar-nav">
 							<li class="nav-item">
-								<i class="fab fa-github fa-2x"> </i>
+								<a href="#" class="nav-link text-uppercase"> Home </a>
 							</li>
 							<li class="nav-item">
-								<i class="fab fa-instagram fa-2x"></i>
+								<a href="#" class="nav-link text-uppercase"> Portfolio </a>
 							</li>
 							<li class="nav-item">
-								<i class="fab fa-twitter fa-2x"></i>
+								<a href="#" class="nav-link text-uppercase"> About </a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link text-uppercase"> Contact </a>
 							</li>
 						</ul>
+
+						<div class="collapse navbar-collapse"></div>
+						<div class="collapse navbar-collapse justify-content-end">
+							<ul class="navbar-nav social-links">
+								<li class="nav-item">
+									<i class="fab fa-github fa-2x"> </i>
+								</li>
+								<li class="nav-item">
+									<i class="fab fa-instagram fa-2x"></i>
+								</li>
+								<li class="nav-item">
+									<i class="fab fa-twitter fa-2x"></i>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+				<!-- End of NavBar Design ========================================== -->
+
+				<!-- My Welcome Section ============================================ -->
+				<div class="welcomeBox container">
+					<p class="firstPara">Hi there, my name is</p>
+
+					<p class="secondPara">Ekene Idiagbor</p>
+					<p class="thirdPara">
+						I'm a Web Developer <i class="fas fa-check"></i>
+					</p>
+					<p class="fourthPara">
+						I create things for the web and I love the tech industry
+					</p>
+
+					<a class="siteBtn">-- View Portfolio</a>
+				</div>
+
+				<!-- My Welcome Section ============================================ -->
+			</section>
+		</header>
+
+		<main class="">
+			<section class="About container">
+				<div>---- About</div>
+
+				<div class="aboutFlex">
+					<div class="aboutText">
+						<p>
+							I am a Web Developer and Programmer. I utilise a variety of web
+							development tools, libraries and frameworks to build websites and
+							web applications...
+						</p>
+					</div>
+
+					<div class="flexRow">
+						<button>HTML</button>
+						<button>CSS</button>
+						<button>Javascript ES6</button>
+						<button>Sass</button>
+						<button>React</button>
+						<button>Node JS</button>
+						<button>Java</button>
+						<button>Git</button>
+						<button>SQL</button>
+						<button>Mongo DB</button>
+					</div>
+
+					<!-- <section class="techStack">
+						<h2 class="Anton black py-3">Building Block</h2>
+						<div class="row">
+							<div class="col-md-4 col-12 p-5">
+								<i class="fas fa-square fa-2x lightgrey"></i>
+								<h5 class="cardTitle letterSpace-2">HTML</h5>
+
+								<p class="text-wrap text-justify">
+									Where would the web be without html. The simple yet highly
+									significant mark-up language used to create documents which
+									are assesed over the web.
+								</p>
+							</div>
+							<div class="col-md-4 col-12 p-5">
+								<i class="fas fa-circle fa-2x lightgrey"></i>
+								<h5 class="cardTitle letterSpace-2">CSS</h5>
+								<p class="text-wrap text-justify">
+									The internet would have been such an ugly place, but thanks to
+									css, the web is such a fun tool that is in increasingly
+									becoming essential to our daily living. we all love to use the
+									internet and navigate awesome web pages. CSS makes CSS, the
+									styling rules that inform a browser on how html elements are
+									been displayed.
+								</p>
+							</div>
+							<div class="col-md-4 col-12 p-5">
+								<i class="fas fa-arrows-alt fa-2x lightgrey"></i>
+								<h5 class="cardTitle letterSpace-2">Javascript</h5>
+								<p class="text-wrap text-justify">
+									Javascript makes magic happen. User interaction has become
+									more meaningful and user experience is an absolute delight. An
+									awesome language that has grown immensely and is utilised by
+									many programmers in various spheres. I absolutely love
+									Javascript.
+								</p>
+							</div>
+						</div>
+					</section> -->
+
+					<div class="flexRow">
+						<img src="/public/images/html.jpg" alt="" />
+						<img src="/public/images/css3.jpg" alt="" />
+						<img src="/public/images/javascript.jpg" alt="" />
+						<img src="/public/images/react.png" alt="" />
+						<img src="/public/images/nodejs.png" alt="" />
+					</div>
+
+					<div class="flexRow">
+						<img src="/public/images/java.png" alt="" />
+						<img src="/public/images/typescript.png" alt="" />
+						<img src="/public/images/sql.jpg" alt="" />
+						<img src="/public/images/mongodb.png" alt="" />
 					</div>
 				</div>
-			</nav>
-		</header>
+			</section>
+
+			<div class="quoteBlock container-fluid">
+				<h5 class="text-center quote container">
+					"Nothing is a waste of time if you use the experience wisely."
+				</h5>
+			</div>
+		</main>
 
 		<script
 			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

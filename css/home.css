@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Piedra&family=Roboto:wght@300&display=swap');
+
+:root {
+	--Piedra: 'Piedra', cursive;
+	--Roboto: 'Roboto', sans-serif;
+	--grey: #807d7d;
+	--black: #1f1d1d;
+	--Anton: 'Anton', sans-serif;
+}
+
+.welcomeBox {
+	height: 200%;
+	padding: 200px 150px;
+	/* border: 2px solid black; */
+	/* background-color: var(--site-second-grey); */
+}
+
+.welcomeBox .firstPara {
+	font-size: 18px;
+	color: var(--black);
+}
+.welcomeBox .secondPara {
+	font-size: 65px;
+	letter-spacing: 10px;
+	font-family: var(--Anton);
+}
+
+.thirdPara {
+	font-size: 54px;
+	letter-spacing: 3px;
+	font-family: var(--Roboto);
+	color: var(--grey);
+}
+
+.fourthPara {
+	/* color: #f7f2f2; */
+	color: black;
+	font-size: 18px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.welcomeBox a.siteBtn {
+	background-color: var(--grey);
+	color: white;
+	padding: 15px;
+	width: 1000px;
+	font-family: var(--Lato);
+	margin-top: 20%;
+}
+
+a.siteBtn:hover {
+	background-color: var(--black);
+	color: white;
+}
+
+.fa-check {
+	color: white;
+}

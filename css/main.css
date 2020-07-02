@@ -2,10 +2,25 @@
 :root {
 	--Piedra: 'Piedra', cursive;
 	--Roboto: 'Roboto', sans-serif;
+	--grey: #807d7d;
+	--lightgrey: #bdb9b9;
 }
 
 .body {
 	overflow-x: hidden;
+	background-color: #fdfff5;
+}
+
+header {
+	/* background-image: url('../public/images/jesus-kiteque.jpg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat; */
+
+	/* height: 300%; */
+	background: -webkit-linear-gradient(#e6e8eb, #d3ddeb);
+	background: -moz-linear-gradient(#e6e8eb, #d3ddeb);
+	background: linear-gradient(#e6e8eb, #d3ddeb);
 }
 
 .logo {
@@ -48,21 +63,24 @@
 }
 
 /* NavBar ======================================== */
+.nav {
+	padding: 20px;
+}
 .logoImage {
 	height: 50px;
 }
 
 .nav-link {
-	color: #474646 !important;
+	color: var(--grey) !important;
 	font-family: var(--Roboto);
 	padding: 5px;
 	font-weight: bold;
 }
 
 .nav-link:hover {
-	color: #807d7d !important;
+	color: black !important;
 	font-weight: bold;
-	border-bottom: 1px solid #474646;
+	border-bottom: 1px solid var(--lightgrey);
 	/* transition: 0.5s ease-in; */
 }
 
