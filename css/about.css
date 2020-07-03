@@ -44,7 +44,7 @@
 	height: 300px;
 }
 
-.aboutText {
+.captionText {
 	padding: 100px;
 	font-size: 24px;
 	padding: 15px;
@@ -114,15 +114,17 @@
 	font-size: 54px;
 	margin-top: 100px;
 	font-family: var(--Lato);
-	padding-bottom: 50px;
+	font-weight: bold;
+	padding-bottom: 30px;
 }
 
 .quoteBlock {
 	/* background-color: var(--lightgrey); */
-	background: -webkit-linear-gradient(#e6e8eb, #d3ddeb);
+	background-color: white;
+	/* background: -webkit-linear-gradient(#e6e8eb, #d3ddeb);
 	background: -moz-linear-gradient(#e6e8eb, #d3ddeb);
-	background: linear-gradient(#e6e8eb, #d3ddeb);
-	padding: 25px;
+	background: linear-gradient(#e6e8eb, #d3ddeb); */
+	padding: 5px;
 	margin: 5rem 0 0 0;
 }
 

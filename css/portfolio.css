@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&family=Open+Sans&family=Piedra&family=Roboto:wght@300&display=swap');
+
+:root {
+	--Piedra: 'Piedra', cursive;
+	--Roboto: 'Roboto', sans-serif;
+	--grey: #807d7d;
+	--black: #1f1d1d;
+	--Anton: 'Anton', sans-serif;
+	--Open-Sans: Open Sans, sans-serif;
+	--Lato: 'Lato, sans-serif';
+	--lightgrey: #bdb9b9;
+	--sitelite: #e6e8eb;
+	--site-second-lite: #d3ddeb;
+}
+
+.portfolioContainer {
+	/* background-color: #e3e3e3; */
+	background: -webkit-linear-gradient(#e6e8eb, #d3ddeb);
+	background: -moz-linear-gradient(#e6e8eb, #d3ddeb);
+	background: linear-gradient(#e6e8eb, #d3ddeb);
+}
+
+.portfolio {
+	margin-top: 10rem;
+}
+
+.flexColumn {
+	display: flex;
+	flex-direction: column;
+}
+/* 
+.boxWrapper {
+	border: 2px solid var(--grey);
+	background-color: var(--sitelite);
+	opacity: 0.1;
+} */
+
+.boxWrapper:hover {
+	border: none;
+	transition: 0.5s ease-out;
+}
+
+.innerflex-row {
+	display: flex;
+	flex-direction: row;
+	background-color: whitesmoke;
+	opacity: 0.8;
+
+	/* border-radius: 5%; */
+}
+.innerflex-row:hover {
+	/* background-color: #121212; */
+	background-color: white;
+	border: visible;
+	outline: visible;
+	z-index: 1;
+	opacity: 1;
+	transition: 0.5s ease-out;
+}
+
+.innerflex-row img {
+	width: 30%;
+	height: 300px;
+}
+
+.textBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+
+.textBox:hover {
+	/* background-color: var(--sitelite); */
+	z-index: 1;
+	/* color: white; */
+	border: none;
+	outline: none;
+	transition: 0.5 ease-out;
+	z-index: 1;
+	/* box-shadow: 5px 10px var(--lightgrey); */
+}
+.project-text {
+	font-family: var(--Roboto);
+	font-size: 16px;
+	/* font-weight: bolder; */
+	letter-spacing: 2px;
+	line-height: 2rem;
+	/* border: 1px solid yellow; */
+	text-align: justify;
+}
