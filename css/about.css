@@ -34,7 +34,7 @@
 .aboutFlex {
 	display: flex;
 	flex-direction: column;
-	padding: 0;
+	padding: 0 20px;
 	justify-content: space-evenly;
 	/* background-color: yellow; */
 }
@@ -56,12 +56,22 @@
 .flexRow {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	margin: 2rem 0;
+	/* flex-basis: 100px; */
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.space-center {
+	justify-content: center;
 }
 
 .flexRow > img {
-	width: 80px;
+	width: 100px;
 }
 
 /* .card {
@@ -84,12 +94,20 @@
 	font-family: var(--Anton);
 } */
 
-.flexRow button {
+.skills {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.skills button {
 	padding: 10px;
 	background-color: whitesmoke;
 	font-family: var(--Roboto);
 	font-weight: bold;
-	border-radius: 8%;
+	border-radius: 10%;
+	margin: 2em;
 }
 
 .quote {
@@ -106,4 +124,25 @@
 	background: linear-gradient(#e6e8eb, #d3ddeb);
 	padding: 25px;
 	margin: 5rem 0 0 0;
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+	.flexRow {
+		justify-content: center;
+	}
+	.flexRow img {
+		width: 50px;
+		margin: 1rem 1.5rem;
+	}
+
+	/* .skills {
+		width: 100vw;
+	} */
+
+	.skills button {
+		margin: 2rem 0.5rem;
+		font-size: 14px;
+		/* width: 50px; */
+		/* text-align: justify; */
+	}
 }

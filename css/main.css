@@ -6,11 +6,17 @@
 	--lightgrey: #bdb9b9;
 }
 
-.body {
+.body,
+html {
+	max-width: 100vw;
 	overflow-x: hidden;
+	overflow-y: scroll;
 	background-color: #fdfff5;
 }
 
+.content-wrapper {
+	overflow-x: hidden;
+}
 header {
 	/* background-image: url('../public/images/jesus-kiteque.jpg');
 	background-size: 100%;
