@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Modak&family=Anton&family=Lato:ital@1&family=Open+Sans&family=Piedra&family=Roboto:wght@300&display=swap');
+
+:root {
+	--Piedra: 'Piedra', cursive;
+	--Roboto: 'Roboto', sans-serif;
+	--Acme: 'Acme', sans-serif;
+	--grey: #807d7d;
+	--black: #1f1d1d;
+	--Anton: 'Anton', sans-serif;
+	--Open-Sans: Open Sans, sans-serif;
+	--Lato: 'Lato, sans-serif';
+	--Modak: 'Modak', cursive;
+	--lightgrey: #bdb9b9;
+	--sitelite: #e6e8eb;
+	--site-second-lite: #d3ddeb;
+}
+.servicesArea {
+	width: 80%;
+	margin: 20em auto 5em auto;
+}
+
+.servicesArea .serviceCapText {
+	font-family: var(--Acme);
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+}
+
+.servicesArea .serviceParaTxt {
+	font-family: var(--Roboto);
+	font-size: 18px;
+	padding: 1em;
+}
+
+.service {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 4em;
+}
+
+.serviceCard {
+	width: 22%;
+	padding: 2em;
+	border: none;
+	z-index: 2;
+	background-color: var(--sitelite);
+	/* background-color: rgba(248, 252, 253, 0.973); */
+}
+
+.serviceCard i {
+	/* color: #b7ccf7; */
+	color: #6287d1;
+}
+
+.serviceCard h5 {
+	font-family: var(--Lato);
+	font-weight: 500;
+}
+
+.serviceCard p {
+	font-family: var(--Roboto);
+	font-size: 15px;
+	line-height: 2em;
+	color: (--black);
+}

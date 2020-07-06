@@ -16,7 +16,8 @@
 
 .portfolioContainer {
 	/* background-color: #e3e3e3; */
-
+	margin: 20em 0;
+	padding: 0.9em;
 	background: -webkit-linear-gradient(#e6e8eb, #d3ddeb);
 	background: -moz-linear-gradient(#e6e8eb, #d3ddeb);
 	background: linear-gradient(#e6e8eb, #d3ddeb);
@@ -29,6 +30,7 @@
 .flexColumn {
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 5rem !important;
 }
 
 /* .boxWrapper { */
@@ -110,6 +112,25 @@
 	line-height: 2rem;
 	/* border: 1px solid yellow; */
 	text-align: justify;
+}
+
+.projectBuild {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+}
+
+.projectBuild a.tool {
+	margin: 0 10px;
+	border-radius: 0.5em;
+	border: 1px solid var(--black);
+	background-color: white;
+	font-family: var(--Roboto);
+	font-size: 14px;
+	padding: 7px;
+}
+.fa-external-link-alt {
+	color: var(--grey);
 }
 
 @media (min-width: 100px) and (max-width: 575px) {
