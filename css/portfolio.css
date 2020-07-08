@@ -16,7 +16,7 @@
 
 .portfolioContainer {
 	/* background-color: #e3e3e3; */
-	margin: 20em 0;
+	margin: 5em 0 0 0;
 	padding: 0.9em;
 	background: -webkit-linear-gradient(#e6e8eb, #d3ddeb);
 	background: -moz-linear-gradient(#e6e8eb, #d3ddeb);
@@ -24,7 +24,7 @@
 }
 
 .portfolio {
-	margin-top: 10rem;
+	margin-top: 5rem;
 }
 
 .flexColumn {

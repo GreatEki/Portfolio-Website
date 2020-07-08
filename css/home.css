@@ -19,6 +19,7 @@
 .welcomeBox .firstPara {
 	font-size: 18px;
 	color: var(--black);
+	font-family: var(--Roboto);
 }
 .welcomeBox .secondPara {
 	font-size: 65px;

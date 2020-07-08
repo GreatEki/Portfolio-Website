@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Modak&family=Anton&family=Lato:ital@1&family=Open+Sans&family=Piedra&family=Roboto:wght@300&display=swap');
+
+:root {
+	--Piedra: 'Piedra', cursive;
+	--Roboto: 'Roboto', sans-serif;
+	--Acme: 'Acme', sans-serif;
+	--grey: #807d7d;
+	--black: #1f1d1d;
+	--Anton: 'Anton', sans-serif;
+	--Open-Sans: Open Sans, sans-serif;
+	--Lato: 'Lato, sans-serif';
+	--Modak: 'Modak', cursive;
+	--lightgrey: #bdb9b9;
+	--sitelite: #e6e8eb;
+	--site-second-lite: #d3ddeb;
+}
+
+.contactContainer {
+	padding: 10em;
+	background-color: var(--site-second-lite);
+}
+
+.formContainer {
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+	/* border: 1px solid black; */
+}
+
+.contactCaption {
+	font-family: var(--Acme);
+	font-size: 38px;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+}
+
+.contactContainer p {
+	font-family: var(--Roboto);
+	font-size: 28px;
+	padding: 1em;
+}
+
+.contact-form {
+	width: 50%;
+	/* background-color: #a9dfe2; #d1d5fa */
+	background: linear-gradient(#d1d5fa, #a9dfe2);
+	background: -moz-linear-gradient(#a9dfe2, #d1d5fa);
+	background: -webkit-linear-gradient(#d1d5fa, #a9dfe2);
+	/* border: 1px solid grey; */
+	border-radius: 0.5em;
+	padding: 5em;
+	margin: 2em 0 0 0;
+}
+
+.formComponent {
+	margin: 1.5em 0;
+}
+
+.contact-form .label {
+	font-family: var(--Roboto);
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contact-form .contactInput {
+	width: 100%;
+	height: 3.5em;
+}
+
+.contactMessage {
+	width: 100%;
+	height: 10em;
+}
+
+.send-btn {
+	padding: 0.7em;
+	border-radius: 0.5em;
+}

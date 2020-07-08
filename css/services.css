@@ -16,7 +16,7 @@
 }
 .servicesArea {
 	width: 80%;
-	margin: 20em auto 5em auto;
+	margin: 10em auto 0.2em auto;
 }
 
 .servicesArea .serviceCapText {
@@ -49,6 +49,10 @@
 	/* background-color: rgba(248, 252, 253, 0.973); */
 }
 
+.serviceCard:hover {
+	transform: scale(1.1);
+}
+
 .serviceCard i {
 	/* color: #b7ccf7; */
 	color: #6287d1;
@@ -64,4 +68,15 @@
 	font-size: 15px;
 	line-height: 2em;
 	color: (--black);
+}
+
+@media (min-width: 100px) and (max-width: 575px) {
+	.service {
+		flex-direction: column;
+	}
+
+	.serviceCard {
+		width: 100%;
+		margin: 2em 0;
+	}
 }
