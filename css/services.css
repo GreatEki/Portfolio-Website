@@ -80,3 +80,11 @@
 		margin: 2em 0;
 	}
 }
+
+/* Large Screen TV */
+@media (min-width: 2500px) and (max-width: 5000px) {
+	.servicesArea {
+		/* background-color: #807d7d; */
+		width: 55%;
+	}
+}

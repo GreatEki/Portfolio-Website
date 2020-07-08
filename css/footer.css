@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Modak&family=Anton&family=Lato:ital@1&family=Open+Sans&family=Piedra&family=Roboto:wght@300&display=swap');
+
+:root {
+	--Piedra: 'Piedra', cursive;
+	--Roboto: 'Roboto', sans-serif;
+	--Acme: 'Acme', sans-serif;
+	--grey: #807d7d;
+	--black: #1f1d1d;
+	--Anton: 'Anton', sans-serif;
+	--Open-Sans: Open Sans, sans-serif;
+	--Lato: 'Lato, sans-serif';
+	--Modak: 'Modak', cursive;
+	--lightgrey: #bdb9b9;
+	--sitelite: #e6e8eb;
+	--site-second-lite: #d3ddeb;
+}
+
+.footerContainer {
+	padding: 0.5em;
+	background-color: var(--site-second-lite);
+}
+
+.tnx {
+	font-family: var(--Acme);
+	font-size: 16px;
+	letter-spacing: 0.2em;
+	padding: 1em;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-icons {
+	display: flex;
+	flex-direction: row;
+	padding: 1em;
+}
+
+.footer-icons li {
+	list-style: none;
+}
+
+.footer-icons i {
+	color: var(--black) !important;
+}
+
+.copy {
+	font-family: var(--Roboto);
+}
+
+.goUp:hover {
+	text-decoration: none;
+}
