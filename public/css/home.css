@@ -54,6 +54,7 @@
 a.siteBtn:hover {
 	background-color: var(--black);
 	color: white;
+	text-decoration: none;
 }
 
 .fa-check {

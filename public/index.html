@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<link rel="icon" type="image/png" href="/public/images/eki-logo.PNG" />
+		<link rel="icon" type="image/png" href="./images/eki-logo.PNG" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<link
@@ -24,6 +24,9 @@
 			crossorigin="anonymous"
 		></script>
 
+
+	
+
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/home.css" />
 		<link rel="stylesheet" href="/css/about.css" />
@@ -34,7 +37,7 @@
 
 		<link rel="apple-touch-icon" href="./eki-logo.PNG" />
 
-		<link rel="manifest" href="./public/manifest.json" />
+		<link rel="manifest" href="./manifest.json" />
 		<title>Ekene Idiagbor - UI/UX Deveoper</title>
 	</head>
 	<body>
@@ -45,7 +48,7 @@
 					<a href="#" class="navbar-brand">
 						<img
 							class="logoImage"
-							src="/public/images/eki-logo.PNG"
+							src="./images/eki-logo.PNG"
 							alt="logo"
 						/>
 					</a>
@@ -105,7 +108,7 @@
 
 					<p class="secondPara">Ekene Idiagbor</p>
 					<p class="thirdPara">
-						I'm a Web Developer <i class="fas fa-check"></i>
+						I'm a Software Developer <i class="fas fa-check"></i>
 					</p>
 					<p class="fourthPara text-wrap">
 						I create things for the web and I love the tech industry
@@ -185,18 +188,18 @@
 					</section> -->
 
 					<div class="flexRow">
-						<img src="/public/images/html.jpg" alt="" />
-						<img src="/public/images/css3.jpg" alt="" />
-						<img src="/public/images/javascript.jpg" alt="" />
-						<img src="/public/images/react.png" alt="" />
-						<img src="/public/images/nodejs.png" alt="" />
+						<img src="./images/html.jpg" alt="" />
+						<img src="./images/css3.jpg" alt="" />
+						<img src="./images/javascript.jpg" alt="" />
+						<img src="./images/react.png" alt="" />
+						<img src="./images/nodejs.png" alt="" />
 					</div>
 
 					<div class="flexRow">
-						<img src="/public/images/java.png" alt="" />
-						<img src="/public/images/typescript.png" alt="" />
-						<img src="/public/images/sql.jpg" alt="" />
-						<img src="/public/images/mongodb.png" alt="" />
+						<img src="./images/java.png" alt="" />
+						<img src="./images/typescript.png" alt="" />
+						<img src="./images/sql.jpg" alt="" />
+						<img src="./images/mongodb.png" alt="" />
 					</div>
 				</div>
 			</section>
@@ -218,7 +221,7 @@
 						<div class="card serviceCard">
 							<i class="fas fa-rocket fa-4x text-center mt-3"></i>
 							<h5 class='text-center mt-5'> Web Development</h5>
-							<p class='text-center mt-3'> With up-to-date knowledge of current web development trends and tools, I transform static web pages to an awesome web applications </p>
+							<p class='text-center mt-3'> Up-to-date knowledge on current web development trends and tools, I transform static web pages to awesome web applications </p>
 						</div>	
 						<div class="card serviceCard">
 							<i class="fas fa-dice-d6 fa-4x text-center mt-3"></i>
@@ -260,7 +263,7 @@
 							<div class="p-5 imgBox">
 								<img
 									class="project-img"
-									src="./public/images/salesplug-logo.png"
+									src="./images/salesplug-logo.png"
 									alt="portfolio-img"
 								/>
 							</div>
@@ -273,7 +276,7 @@
 									sales and track inbound and outbound flows, document procurement etc.
 								</p>
 								<div class="projectBuild align-self-start px-5">
-									<div>
+									<!-- <div> -->
 										<a class="tool">React</a>
 										<a class="tool">Node Js</a>
 										<a class="tool">Express Js</a>
@@ -283,7 +286,7 @@
 												</i
 											></a
 										>
-									</div>
+									<!-- </div> -->
 
 								</div>
 							</div>
@@ -295,7 +298,7 @@
 							<div class="p-5 imgBox">
 								<img
 									class="project-img"
-									src="/public/images/Ifedayo-Fashion.jpg"
+									src="./images/Ifedayo-Fashion.jpg"
 									alt="portfolio-img"
 								/>
 							</div>
@@ -334,7 +337,7 @@
 							<div class="p-5 imgBox">
 								<img
 									class="project-img"
-									src="/public/images/rt-chat-new.PNG"
+									src="./images/rt-chat-new.PNG"
 									alt="portfolio-img"
 								/>
 							</div>
@@ -371,7 +374,7 @@
 							<div class="p-5 imgBox">
 								<img
 									class="project-img"
-									src="/public/images/bullock-logo.jpg"
+									src="./images/bullock-logo.jpg"
 									alt="portfolio-img"
 								/>
 							</div>
@@ -413,26 +416,34 @@
 				<a name="Contact"></a>
 				<h5 class='contactCaption text-center'> Get In Touch </h5>
 
-				<p class='text-center'>Feel free to send me a message. I would be glad to hear from you.</p>
+				<p class='text-center smallCap'>Feel free to send me a message. I would be glad to hear from you.</p>
 
 				<div class='formContainer container'>
 
-					<form action="" class='contact-form'>
+					<form class='contact-form'>
+
+						<div class='text-center text-success' id='successMsg'> </div>
+						<div class='text-center text-danger' id='errorMsg'> </div>
 	
 						<div class='formComponent'>
-							<label for="clientName" class='label'> Full Name</label><br/>
+							<label for="clientEmail" class='label'> Email </label><br/>
 	
-							<input type="text"id='clientName' name='clientName' class='contactInput'/>
+							<input type="text" id='clientEmail' name='clientEmail' class='contactInput'/>
+						</div>
+						<div class='formComponent'>
+							<label for="clientSubject" class='label'> Subject </label><br/>
+	
+							<input type="text"id='clientSubject' name='clientSubject' class='contactInput'/>
 						</div>
 						<div class='formComponent'>
 							<label for="clientMessage" class='label'> Message</label><br />
 	
-							<textarea name="clientMessage" id="" class='contactMessage'></textarea>
+							<textarea name="clientMessage" id="clientMessage" class='contactMessage'></textarea>
 						</div>
 	
-						<div>
-							<button class='send-btn'> Send </button>
-						</div>
+						
+							<button type='submit' id='sendBtn' class='send-btn' > Send </button>
+						
 					</form>
 				</div>
 			</section>
@@ -486,5 +497,14 @@
 			integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 			crossorigin="anonymous"
 		></script>
+
+		<script src="https://smtpjs.com/v3/smtp.js">
+		</script>
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js'></script>
+
+		<script src="./js/main.js"></script>
+
+		
 	</body>
 </html>

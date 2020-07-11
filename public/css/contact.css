@@ -35,9 +35,15 @@
 	letter-spacing: 0.5em;
 }
 
-.contactContainer p {
+.smallCap {
 	font-family: var(--Roboto);
 	font-size: 28px;
+	padding: 1em;
+}
+
+.contact-form p {
+	font-family: var(--Roboto);
+	font-size: 16px;
 	padding: 1em;
 }
 
@@ -49,7 +55,7 @@
 	background: -webkit-linear-gradient(#d1d5fa, #a9dfe2);
 	/* border: 1px solid grey; */
 	border-radius: 0.5em;
-	padding: 5em;
+	padding: 2em 4em;
 	margin: 2em 0 0 0;
 }
 
@@ -73,6 +79,7 @@
 	height: 3.5em;
 	outline: none;
 	border: none;
+	padding: 1.5em;
 }
 
 .contact-form .contactInput:focus {
@@ -85,6 +92,7 @@
 	height: 10em;
 	outline: none;
 	border: none;
+	padding: 1.5em;
 }
 
 .contactMessage:focus {
