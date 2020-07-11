@@ -11,7 +11,4 @@ app.use(express.json());
 // configuring static folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Importing routes
-app.use('/', require('./routes/mainRoute'));
-
 module.exports = app;
