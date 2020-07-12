@@ -22,10 +22,8 @@
 
 .formContainer {
 	display: flex;
-	/* flex-direction: column; */
 	justify-content: center;
 	align-items: center;
-	/* border: 1px solid black; */
 }
 
 .contactCaption {
@@ -60,7 +58,6 @@
 }
 
 .contact-form:hover {
-	transform: scale(1.1);
 	transition: 0.5s ease-out;
 }
 
@@ -104,4 +101,19 @@
 	padding: 0.7em;
 	border-radius: 0.5em;
 	background: transparent;
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+	.contactContainer {
+		padding: 1em;
+	}
+
+	.smallCap {
+		font-size: 18px;
+	}
+
+	.contact-form {
+		width: 100%;
+		padding: 2em;
+	}
 }

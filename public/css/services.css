@@ -70,7 +70,19 @@
 	color: (--black);
 }
 
+/* SMALL SCREENS: SMALL PHONES */
 @media (min-width: 100px) and (max-width: 575px) {
+	.service {
+		flex-direction: column;
+	}
+
+	.serviceCard {
+		width: 100%;
+		margin: 2em 0;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
 	.service {
 		flex-direction: column;
 	}
