@@ -61,7 +61,7 @@ a.siteBtn:hover {
 	color: white;
 }
 
-@media (min-width: 100px) and (max-width: 575px) {
+@media (min-width: 100px) and (max-width: 767px) {
 	.welcomeBox {
 		/* width: 100vw; */
 		padding: 200px 50px;

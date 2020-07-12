@@ -93,6 +93,13 @@
 	}
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+	.serviceCard {
+		width: 45%;
+		margin: 2em 0;
+	}
+}
+
 /* Large Screen TV */
 @media (min-width: 2500px) and (max-width: 5000px) {
 	.servicesArea {

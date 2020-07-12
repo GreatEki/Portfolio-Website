@@ -249,3 +249,19 @@
 		padding: 2em 1em;
 	}
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.innerflex {
+		opacity: 0.7;
+		border-radius: 0em;
+	}
+
+	.card-title {
+		width: 100%;
+		padding: 0.8em 0;
+	}
+
+	a.tool {
+		font-size: 10px;
+	}
+}
