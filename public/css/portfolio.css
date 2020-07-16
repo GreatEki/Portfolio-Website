@@ -173,8 +173,9 @@
 
 	.projectBuild a.tool {
 		font-size: 13px;
-		margin: 1em 0;
-		padding: 7px 4px;
+		margin: 1em 0.5em;
+		padding: 5px;
+		white-space: nowrap;
 	}
 
 	.card-title {
@@ -185,7 +186,7 @@
 	}
 
 	.visitSite {
-		padding: 2em 1em;
+		padding: 0.5em 1em;
 	}
 }
 
@@ -233,9 +234,11 @@
 	}
 
 	.projectBuild a.tool {
-		font-size: 13px;
-		margin: 1em 1em;
+		font-size: 12px;
+		margin: 1em 1em 1em 0em;
 		padding: 7px 4px;
+		white-space: nowrap;
+		/* width: 25%; */
 	}
 
 	.card-title {
@@ -246,7 +249,7 @@
 	}
 
 	.visitSite {
-		padding: 2em 1em;
+		padding: 7px 4px;
 	}
 }
 
@@ -261,7 +264,22 @@
 		padding: 0.8em 0;
 	}
 
-	a.tool {
-		font-size: 10px;
+	.projectBuild {
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+	}
+
+	.projectBuild a.tool {
+		white-space: nowrap;
+		margin: 1em 0.5em 0.5em 0em;
+	}
+
+	.visitSite {
+		padding: 0.5em 0em;
+		/* border: 1px solid black; */
+	}
+
+	.projectBuild a {
+		margin-bottom: 1em;
 	}
 }

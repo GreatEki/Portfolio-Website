@@ -82,6 +82,7 @@
 	}
 }
 
+/* SMALL SCREENS: BIG PHONES */
 @media (min-width: 576px) and (max-width: 767px) {
 	.service {
 		flex-direction: column;
@@ -93,7 +94,16 @@
 	}
 }
 
+/* MEDIUM SCREENS: TABLETS AND IPADS */
 @media (min-width: 768px) and (max-width: 1023px) {
+	.serviceCard {
+		width: 45%;
+		margin: 2em 0;
+	}
+}
+
+/* Ipad Pro and Mini Laptops */
+@media (min-width: 1024px) and (max-width: 1250px) {
 	.serviceCard {
 		width: 45%;
 		margin: 2em 0;
